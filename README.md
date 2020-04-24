@@ -1,1 +1,1 @@
-# GP-Django
+# djangogp
