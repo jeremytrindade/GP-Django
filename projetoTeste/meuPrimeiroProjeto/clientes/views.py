@@ -3,4 +3,4 @@ from .models import Person
 
 def persons_list(request):
     persons = Person.objects.all()
-    return render(request, 'person.html', {'person': persons})
+    return render(request, 'person.html', {'persons': persons})
